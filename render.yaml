@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: products-crud-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DB_PATH
+        value: ./products.db
+      - key: NODE_VERSION
+        value: 22.22.0
