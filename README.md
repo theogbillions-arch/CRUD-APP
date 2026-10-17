@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tech Product Showcase - Single-Table CRUD (Node.js + Express + SQLite)
 Uses Node's built-in SQLite (`node:sqlite`), so no C++ build tools are needed. Requires Node 22.13+.
 
@@ -49,3 +50,7 @@ collection variable `baseUrl` to your Render URL (no trailing slash).
 1. Say your name and theme (Tech Product Showcase).
 2. Run requests 1 to 5 in order. For each, point at the URL, method, body and JSON response.
 3. Open the live site, add, edit and delete a product to show the frontend.
+=======
+# CRUD-APP
+This is a simple CRUD APP using node.js
+>>>>>>> e31b45f8399b6f3b6382cc9ca0ea014f29a1a29a
